@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./blog_preview_card.png)
+![](./blog-preview-card.png)
 
 
 ### Links
 
 - Solution URL: https://github.com/Ugokams/frontend-mentor-project/tree/master/blog-preview-card
-- Live Site URL: https://ugokams.github.io/frontend-mentor-project/
+- Live Site URL: https://ugokams.github.io/frontend-mentor-project/ 
 
 ## My process
 
