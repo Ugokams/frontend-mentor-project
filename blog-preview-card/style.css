@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'figtree', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center;     /* Vertical center */
+    flex-direction: column;
+    background-color: hsl(47, 88%, 63%);
+}
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 90%;
+    max-width: 325px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 8px 8px 0px black;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.tag {
+    background-color: #f4d04e;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 12px;
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 12px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 0px);
+}
+
+.title a:hover {
+    color: hsl(47, 88%, 53%);
+    cursor:pointer;
+}
+.title a{
+    color: inherit;
+    text-decoration: none;
+}
+.title:focus {
+    outline: 2px solid black;
+    outline-offset: 1px;
+}
+
+.description {
+    font-size: 14px;
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 20px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.author-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.author-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Desktop View (Optional) */
+@media (min-width: 768px) {
+  .card {
+    max-width: 400px;
+  }
+  h1{
+      font-size: 18px; 
+      font-weight: 800;
+}
+
+p {
+      font-size: 16px; 
+      font-weight: 500;
+      color: hsl(0, 0%, 0%)
+
+}
+}
